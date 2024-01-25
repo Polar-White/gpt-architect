@@ -93,7 +93,7 @@ class GenerateGptResourceCommand extends Command
         $tables = $schemaManager->listTableNames();
 
         foreach ($tables as $tableName) {
-            $this->contents .= "interface " . ucfirst($tableName) . " {\n";
+            $this->contents .= "table " . $tableName . " {\n";
 
             $columns = $schemaManager->listTableColumns($tableName);
 

@@ -43,7 +43,7 @@ To generate the GPT resource file, run:
 php artisan make:gpt-plan
 ```
 
-The default output will be located at `resources/gpt-plan.txt`.
+The default output will be located at `<project root>/gpt-plan.txt`.
 
 ## Contributing
 

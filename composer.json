@@ -1,0 +1,29 @@
+{
+    "name": "polarwhite/laravel-gpt-architect",
+    "description": "A Laravel package to generate GPT-friendly project blueprints",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Polarwhite\\LaravelGptArchitect\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Justin McCombs",
+            "email": "justin@polarwhite.io"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/support": "^7.0|^8.0|^9.0|^10.0",
+        "doctrine/dbal": "^3.7"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Polarwhite\\LaravelGptArchitect\\LaravelGptArchitectServiceProvider"
+            ]
+        }
+    }
+}

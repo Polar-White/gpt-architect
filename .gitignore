@@ -1,0 +1,28 @@
+/vendor/
+/node_modules/
+
+# Laravel local environment files
+.env
+.env.backup
+.env.*.local
+
+# IDE specific files
+.idea/
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Local composer files
+composer.lock
+
+# PHPUnit
+/phpunit.result.cache
+
+# User-specific files
+/.php_cs.cache
+/.php_cs
+/phpunit.xml
+Homestead.yaml
+Homestead.json

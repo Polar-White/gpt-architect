@@ -1,5 +1,5 @@
 
-# LaravelGptArchitect
+# Laravel GPT Architect
 
 ![image](https://github.com/Polar-White/laravel-gpt-architect/assets/1485635/acc05971-8d87-43d0-b121-983766aaaf04)
 
@@ -7,9 +7,6 @@
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![Downloads](https://img.shields.io/badge/downloads-1-brightgreen)
-
-LaravelGptArchitect is a Laravel package designed to generate GPT-friendly project blueprints...
-
 
 LaravelGptArchitect is a Laravel package designed to generate GPT-friendly project blueprints. It creates a comprehensive overview of your Laravel application's database schema, models, services, and dependencies, in a format that can be easily consumed by custom GPT models.
 

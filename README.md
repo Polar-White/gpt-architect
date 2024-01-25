@@ -15,7 +15,7 @@ LaravelGptArchitect is a Laravel package designed to generate GPT-friendly proje
 To install the package, run the following command in your Laravel project:
 
 ```bash
-composer require polarwhite/laravel-gpt-architect
+composer require polar-white/laravel-gpt-architect
 ```
 
 ## Configuration
@@ -23,7 +23,7 @@ composer require polarwhite/laravel-gpt-architect
 Publish the configuration file to customize the output:
 
 ```bash
-php artisan vendor:publish --provider="Polarwhite\LaravelGptArchitect\LaravelGptArchitectServiceProvider"
+php artisan vendor:publish --provider="PolarWhite\LaravelGptArchitect\LaravelGptArchitectServiceProvider"
 ```
 
 You can then edit the published `config/gpt-architect.php` file according to your needs.

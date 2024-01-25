@@ -1,6 +1,6 @@
 <?php
 
-namespace Polarwhite\LaravelGptArchitect\Console\Commands;
+namespace PolarWhite\LaravelGptArchitect\Console\Commands;
 
 use Illuminate\Console\Command;
 

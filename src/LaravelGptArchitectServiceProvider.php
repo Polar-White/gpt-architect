@@ -1,9 +1,9 @@
 <?php
 
-namespace Polarwhite\LaravelGptArchitect;
+namespace PolarWhite\LaravelGptArchitect;
 
 use Illuminate\Support\ServiceProvider;
-use Polarwhite\LaravelGptArchitect\Console\Commands\GenerateGptResourceCommand;
+use PolarWhite\LaravelGptArchitect\Console\Commands\GenerateGptResourceCommand;
 
 class LaravelGptArchitectServiceProvider extends ServiceProvider
 {

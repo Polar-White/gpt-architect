@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Polarwhite\\LaravelGptArchitect\\": "src/"
+            "PolarWhite\\LaravelGptArchitect\\": "src/"
         }
     },
     "authors": [
@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Polarwhite\\LaravelGptArchitect\\LaravelGptArchitectServiceProvider"
+                "PolarWhite\\LaravelGptArchitect\\LaravelGptArchitectServiceProvider"
             ]
         }
     }

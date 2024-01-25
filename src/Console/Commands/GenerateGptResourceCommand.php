@@ -85,7 +85,7 @@ class GenerateGptResourceCommand extends Command
         $this->contents .= "/*\n";
         $this->contents .= " * DATABASE STRUCTURE\n";
         $this->contents .= " * The following interfaces represent the tables in the database along with their column definitions.\n";
-        $this->contents .= " * Each interface name corresponds to a table, and its properties represent the table's columns.\n";
+        $this->contents .= " * Each list section corresponds to a table, and its properties represent the table's columns.\n";
         $this->contents .= " */\n";
 
         $schemaManager = \DB::connection()->getDoctrineSchemaManager();

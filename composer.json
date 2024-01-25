@@ -1,5 +1,5 @@
 {
-    "name": "polarwhite/laravel-gpt-architect",
+    "name": "polar-white/laravel-gpt-architect",
     "description": "A Laravel package to generate GPT-friendly project blueprints",
     "type": "library",
     "license": "MIT",

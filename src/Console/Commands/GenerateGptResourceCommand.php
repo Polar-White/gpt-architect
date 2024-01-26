@@ -16,6 +16,13 @@ class GenerateGptResourceCommand extends Command
      */
     protected $description = 'Command description';
 
+    public function __construct()
+    {
+        // Register the enum type mapping for Doctrine
+        $platform = \DB::getDoctrineConnection()->getDatabasePlatform();
+        $platform->registerDoctrineTypeMapping('enum', 'string');
+    }
+
     /**
      * Execute the console command.
      */
